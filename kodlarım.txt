@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> EZGÝ KARADAÐ 2019280037</title>
+        <meta charset="utf-8">
+    </head>
+        <body> <i> <b> <font color="red">
+
+        <h1> 2019 GÜZ DÖNEMÝNÝN ÝLK ÖDEVÝ</h1>
+        <form name="toplam">
+        
+            Sayý Giriniz :  <input type="number" id="sayi1" maxlength="1" ><br><br>
+           
+            Sayý Giriniz' :  <input type="number" id="sayi2" maxlength="1" ><br><br>
+			
+            <input type="button" id="btnTopla" value="TOPLA">
+        </form>
+        <br>
+        <div id="kutuToplam"></div>
+		
+		<form name="birlestir">
+            <label> Metin Giriniz : </label>
+            <input type="text" id="yazi1"><br><br>
+            <label> Metin Giriniz' : </label>
+            <input type="text" id="yazi2"><br><br>
+            <input type="button" id="btnBirlestir" value="BÝLEÞTÝR">
+        </form>
+        
+        <script type ="text/javascript">
+            var btn=document.getElementById("btnTopla");
+            btn.onclick=function(){
+                var s1=Number(document.getElementById("sayi1").value);
+                var s2=Number(document.getElementById("sayi2").value);
+                alert ( parseInt(s1) + parseInt(s2) );
+				}
+				
+	        var btn=document.getElementById("btnBirlestir");
+		    btn.onclick=function(){
+		        var s3 = (document.getElementById("yazi1").value);
+		        var s4 = (document.getElementById("yazi2").value);
+		        alert( s3.concat(" " ,s4)) ;
+		        }
+		 
+		 </script>
+		 
+		<br> <hr><br> <br>
+		Ezgi Karadað 
+		<br><br>
+		
+	
+		2019280037
+		<br><br><hr><br>
+		<h3> Kullandýðým Kaynaklar </h3>
+		<a href= " https://www.yusufsezer.com.tr/javascript-metinsel/ "> link1 <br>
+		<a href="https://www.youtube.com/playlist?list=PLWctyKyPphPjm1jnFNsQfOIDgR3wf-prc">  link2<br>
+		<a href= " https://www.yazilimkodlama.com/web/javascript-toplama-ornegi/"> link3 <br>
+		
+		
+		</body>
+	</html>
